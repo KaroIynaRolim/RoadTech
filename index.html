@@ -4,30 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RoadTech</title>
-    <link href="https://fonts.cdnfonts.com/css/cs-gordon" rel="stylesheet">
-    <link rel="stylesheet" href="/css/cabecalho.css">
+    <title>Road Tech</title>
+    
+    <!-- Importanto Biblioteca para criação do carrossel de imagens  -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+
+    <!-- Páginas de estilos do site -->
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/area_tech.css">
+
+    <!-- Importando biblioteca javascript (jquery) para poder gerar a animação do carrosel -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
+    <!-- Colocando o fundo escuro em todo arquivo -->
+    <style type="text/css">
+        *{
+            background: black;
+        }
+    </style>
     
 </head>
 <body>
+    <!-- Desenvolvido por Karol -->
     <header class="cabecalho">
-        <img class="cabecalho__imagem" src="/img/ROAD TECH certo.png">
+        <img class="cabecalho__imagem" src="img/ROAD TECH certo.png">
         <nav class="navegacao">
-           <ul class="navegacao__menu">
-            <li class="navegacao__menu-itens">
-                <a class="menu__itens-link" href="#">Área tech</a>
-                <div class="linha cor_linha-1"></div>
-            </li>
-            <li class="navegacao__menu-itens">
-                <a class="menu__itens-link" href="#">Notícias</a>
-                <div class="linha cor_linha-2"></div>
-            </li>
-            <li class="navegacao__menu-itens">
-                <a class="menu__itens-link" href="#">Sobre nós</a>
-                <div class="linha cor_linha-3"></div>
-            </li>
+            <ul class="navegacao__menu">
+
+                <li class="navegacao__menu-itens">
+                    <div class="navegacao_menu-linha">
+                        <a class="menu__itens-link" href="#">Área Tech</a>
+                        <div class="linha cor_linha-1"></div>
+                    </div>
+                </li><!-- navegacao__menu-itens -->
+
+                <li class="navegacao__menu-itens">
+                    <div class="navegacao_menu-linha">
+                        <a class="menu__itens-link" href="#">Notícias</a>
+                        <div class="linha cor_linha-2"></div>
+                    </div>
+                </li><!-- navegacao__menu-itens-->
+
+                <li class="navegacao__menu-itens">
+                    <div class="navegacao_menu-linha">
+                        <a class="menu__itens-link" href="#">Sobre</a>
+                        <div class="linha cor_linha-3"></div>
+                    </div>
+                </li><!-- navegacao__menu-itens -->
+
            </ul>
         </nav>
     </header>
+    <!-- Desenvolvido por Karol -->
+
+    <!-- Desenvolvido por Jhonnatas -->
+
+    <section class="central_banner">
+        <div class="central_carousel">
+            <div class="carousel">
+                <div><img src="img/banner1.png"></div>
+                <div><img src="img/banner2.png"></div>
+                <div><img src="img/banner3.png"></div>
+                <div><img src="img/banner4.png"></div>
+            </div><!-- carousel -->
+        </div><!-- central_carousel -->
+    </section><!-- central_banner -->
+
+    <section class="area_tech">
+        <div class="area_tech-titulo">
+            <h1>Área Tech</h1>
+        </div><!-- area_tech-titulo -->
+    </section><!-- area_tech -->
+        
+    
+
+
+
+
+
+    <!-- Desenvolvido por Jhonnatas -->
+
+
+
+
+    <script type="text/javascript">
+        $('.carousel').slick({
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: true,
+        });
+            
+    </script>
+   
 </body>
 </html>
