@@ -4,10 +4,27 @@
   box-sizing: border-box;
 }
 .area_tech-titulo{
-	margin-top: 10px;
-	border: 3px dashed green;
+	margin-top: 25px;
+	border: 3px dashed #0031cf;
 	text-align: center;
+	border-left: none;
+  	border-right: none;
 }
 .area_tech-titulo h1{
-	color: #f50ca0;
+	color: #fff;
+	font-weight: 600;
+	font-family: 'Catamaran', sans-serif;
+	letter-spacing: 1px;
 }
+
+/* card */
+.quadrado {
+	margin-top: 25px;
+	width: 275px;
+	height: 110px;
+	border-radius: 7px;
+	border: 1px solid white;
+	float: left;
+	margin-left: 3%;
+}
+
