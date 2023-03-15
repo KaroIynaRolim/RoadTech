@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* .quadrado {
+	margin-top: 25px;
+	width: 275px;
+	height: 110px;
+	border-radius: 7px;
+	border: 1px solid white;
+	float: left;
+	margin-left: 3%;
+} */
+
+.container {
+	height: 20px;
+	width: 20px;
+	position: relative;
+	perspective: 10px;
+	margin: 10px;
+}
+
+.front,.back {
+	position: absolute;
+	backface-visibility: hidden;
+	transform-style: preserve-3d;
+	transition: all 1s ease;
+}
+
+.front {
+	transform: rotateY(0deg);
+}
+
+.back {
+	transform: rotateY(0deg);
+}
+
+.container:hover.front {
+	transform: rotateY('-180deg');
+}
+
+.container:hover.back {
+	transform: rotateY('0deg');
+}
