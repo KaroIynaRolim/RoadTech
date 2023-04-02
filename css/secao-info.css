@@ -1,0 +1,95 @@
+.secao-info {
+    width: 90%;
+    margin: 40px auto 0;
+    font-family: 'Catamaran', sans-serif;
+}
+
+/** Formatações Genéricas (vão servir para todos as seções) **/
+
+.secoes {
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.h-title {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.p-conteudo {
+    color: white;
+    width: 55%;
+    font-size: 20px;
+}
+
+.img-conteudo {
+    margin-left: 1%;
+    width: 500px;
+    border-radius: 7px;
+}
+
+/** Fim da formatação genérica **/
+
+/*! Sobre a Área ficou como template. (Quem for modifica-la use a classe (.sobre-area) !*/
+
+/*? Cursos e Certificados ?*/
+
+.cursos-certificados .p-conteudo {
+    width: 100%;
+}
+
+.conteudo div {
+    width: 55%;
+}
+
+
+.li-cursos {
+    color: white;
+    margin-left: 30px;
+}
+
+/*? Fim de Cursos e Certificados ?*/
+
+/*! Carreiras. A seção carreira também não precisou ser modificada pois seguia o mesmo modelo da #Sobre a Área !*/
+
+/*? Carreiras ?*/
+
+.carreiras {
+    height: auto;
+}
+
+.carreiras .conteudo {
+    margin-bottom: 20px;
+}
+
+.carreiras button {
+    width: auto;
+    margin: 10px auto;
+    
+    box-sizing: border-box;
+    font-size: 18px;
+
+    padding: .7rem 3rem;
+    cursor: pointer;
+
+    border: none;
+    color: white;
+    background-color: rgb(255, 5, 134);
+    border-radius: 10px;
+}
