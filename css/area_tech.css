@@ -1,16 +1,18 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-.area_tech-titulo{
+
+.area_tech-titulo {
 	margin-top: 25px;
 	border: 3px dashed #0031cf;
 	text-align: center;
 	border-left: none;
-  	border-right: none;
+	border-right: none;
 }
-.area_tech-titulo h1{
+
+.area_tech-titulo h1 {
 	color: #fff;
 	font-weight: 600;
 	font-family: 'Catamaran', sans-serif;
@@ -27,4 +29,3 @@
 	float: left;
 	margin-left: 3%;
 } */
-

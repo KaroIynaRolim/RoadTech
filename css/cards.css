@@ -4,10 +4,15 @@
     box-sizing: border-box;
   }
   
-.col-1-4, .col-2-4, .col-3-4, .col-4-4 {
+.col-1-4,
+.col-2-4,
+.col-3-4,
+.col-4-4 {
 	width: 22%;
-	margin: auto 1.2%;
+	margin: auto ;
 	display: inline-block;
+	align-items: center;
+	justify-content: space-evenly;
 	/* border: 1px solid yellow; */
 }
 
