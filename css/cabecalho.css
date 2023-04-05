@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 .cabecalho {
   background-color: #349beb;
   width: 100%;
@@ -13,7 +12,12 @@
   align-items: center;
   justify-content: space-around;
 }
-
+/*.cabecalho {
+  background-color: #349beb;
+  width: 100%;
+  height: auto;
+  display: block;
+}*/
 .cabecalho__imagem {
   background-color: #349beb;
   width: 120px;
@@ -21,6 +25,7 @@
 
 .navegacao {
   margin: 0;
+  /*display: none;*/
 }
 
 .navegacao__menu {
@@ -83,3 +88,29 @@
   background-color: #3659cb;
   margin: 10px 0;
 }
+
+.navegacao-menu_mobile{
+  display: block;
+  width: 100%;
+  margin-top: 0%;
+  z-index: 1;
+  text-align: center;
+}
+.linha-menu-moblie{
+  list-style-type: none;
+  margin-top: 15px;
+  
+/*}
+.box_link{
+  background-color: #349beb;
+}
+.box_link img{
+  background-color: #349beb;
+  cursor: pointer;
+}*/
+/*.none{
+  display: none;
+}*/
+
+
+
