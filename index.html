@@ -40,6 +40,9 @@
             /* max-width: 1400px; */
             margin: auto;
         }
+        .clear{
+            clear: both;
+        }
     </style>
 
 </head>
@@ -47,8 +50,8 @@
 <body>
     <!-- Desenvolvido por Karol -->
     <header class="cabecalho">
-        <img class="cabecalho__imagem" src="img/ROAD TECH.png">
-        <br>
+        <img class="cabecalho__imagem" src="img/ROAD TECH.png"> 
+
         <!-- Menu-desktop -->
         <nav class="navegacao">
             <ul class="navegacao__menu">
@@ -84,48 +87,58 @@
             </ul>
         </nav>
         <!-- Menu-desktop -->
+    </header>
+
+    <!-- header para menu mobile -->
+    <header class="cabecalho_mobile">
+         
+        <div class="box_header_mobile">
+            <img class="cabecalho__imagem_mobile" src="img/ROAD TECH.png">
+            <div class="box_link">
+                <img class="cabecalho__menu" src="img/menu.png">
+            </div>
+        </div>
 
         <!-- Menu-mobile -->
-        <<!-- nav class="navegacao-menu_mobile">
+        <nav class="navegacao-menu_mobile">
             <ul class="lista-menu-mobile">
 
-                <li class="linha-menu-moblie">
+                <li class="linha-menu-moblie none">
                     <div class="box_link">
-                        <img src="img/menu.png">
+                        
                     </div>
-                </li> --><!-- linha-menu-moblie -->
+                </li> <!-- linha-menu-moblie -->
 
-                <!-- <li class="linha-menu-moblie none">
+                <li class="linha-menu-moblie none">
                     <div class="box_link">
                         <a class="menu__itens-link" href="#">Área Tech</a>
                     </div>
-                </li> --><!-- linha-menu-moblie -->
+                </li> <!-- linha-menu-moblie -->
 
-               <!--  <li class="linha-menu-moblie none">
+                <li class="linha-menu-moblie none">
                     <div class="box_link">
                         <a class="menu__itens-link" href="#">Empregabilidade</a>
                     </div>
-                </li> --><!-- navegacao__menu-itens-->
+                </li> <!-- navegacao__menu-itens-->
 
-                <!-- <li class="linha-menu-moblie none">
+                 <li class="linha-menu-moblie none">
                     <div class="box_link">
                         <a class="menu__itens-link" href="#">Formas de ingresso</a>
                     </div>
-                </li> --><!-- navegacao__menu-itens-->
+                </li> <!-- navegacao__menu-itens-->
 
-                <!-- <li class="linha-menu-moblie none">
+                <li class="linha-menu-moblie none">
                     <div class="box_link">
                         <a class="menu__itens-link" href="#">Sobre</a>
                     </div>
-                </li> --><!-- navegacao__menu-itens -->
-
-            <!-- </ul>
-        </nav> -->
+                </li><!-- navegacao__menu-itens -->
+            </ul>
+        </nav>
         <!-- Menu-mobile -->
-    </header>
-    <!-- Desenvolvido por Karol -->
 
-    <!-- Desenvolvido por Jhonnatas -->
+    </header>
+    <!-- header para menu mobile -->
+
 
     <section class="central_banner">
         <div class="central_carousel">
@@ -144,10 +157,6 @@
         </div><!-- area_tech-titulo -->
     </section><!-- area_tech -->
 
-    <!-- Desenvolvido por Jhonnatas -->
-
-    <!-- Desenvolvido por Karol -->
-
     <!-- Cards  -->
     <div class="col-1-4">
 
@@ -165,6 +174,7 @@
                 </div>
             </div>
         </div>
+        <div class="clear"></div>
     </div>
 
     <div class="col-2-4">
@@ -186,6 +196,7 @@
                 </div>
             </div>
         </div>
+        <div class="clear"></div>
     </div>
 
     <div class="col-3-4">
@@ -203,6 +214,7 @@
                 </div>
             </div>
         </div>
+        <div class="clear"></div>
     </div>
 
     <div class="col-4-4">
@@ -223,6 +235,7 @@
                 </div>
             </div>
         </div>
+        <div class="clear"></div>
     </div>
     <!-- Desenvolvido por Karol -->
 
@@ -234,6 +247,7 @@
         <div class="sobre-area secoes">
             <h1 class="h-title">Sobre a Área</h1>
             <div class="conteudo">
+                
 
                 <p class="p-conteudo">
                     Tecnologia é um conjunto de conhecimentos, técnicas, métodos e ferramentas utilizados para
@@ -251,13 +265,10 @@
         </div>
 
         <div class="cursos-certificados secoes">
-
             <h1 class="h-title">Cursos e Certificados</h1>
 
             <div class="conteudo">
-
                 <div class="conteudo-li">
-
                     <p class="p-conteudo">
                         Quer se tornar mais apto e qualificado? Conheça os cursos profissionalizante com certificados
                         disponiveis na web, como:
@@ -271,13 +282,9 @@
                         <li class="li-cursos">Alura</li>
                         <li class="li-cursos">Onebitcode</li>
                     </ul>
-
                 </div>
-
                 <img class="img-conteudo" src="img/ImgSobreATecnologia.jpeg" alt="">
-
             </div>
-
         </div>
 
         <div class="ferramenta-softwares secoes">
@@ -381,6 +388,10 @@
                 autoplay: true,
                 autoplaySpeed: 2000,
                 arrows: false,
+            });
+
+            $(".cabecalho__menu").click(function(){
+                $(".none").toggle();
             });
         </script>
 
