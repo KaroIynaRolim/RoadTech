@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 225px;
+  max-height: 300px;
+  text-align: center;
+  padding: 50px;
+  background-color: #349beb;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+}
+
+
+.title_info-rodape {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  justify-content: left;
+  width: 10px;
+  height: 10px;
+  background-color: #349beb;
+  margin: 0 10px;
+}
+
+.ul-rodape {
+  background-color: #349beb;
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  font-size: 0;
+
+}
+
+.li-rodape {
+  position: relative;
+  margin-top: 30px;
+  height: 0;
+  width: 10px;
+  font-size: 10px;
+  background-color: #349beb;
+  white-space: nowrap
+}
+
+.title_info-colaboradores {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  background-color: #349beb;
+  margin: 0 500px;
+}
+
+.imagens_colaboradores-1 {
+  display: flex;
+  position: absolute;
+  margin: 45px 450px;
+  width: 38px;
+  height: 38px;
+  background-color: #349beb;
+}
+
+.imagens_colaboradores-2 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin: 40px 40px;
+  width: 38px;
+  height: 38px;
+  background-color: #349beb;
+}
+
+.title_info-info {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  width: 10px;
+  height: 10px;
+  background-color: #349beb;
+  margin: 0 1300px;
+}
+
+.paragrafo-info {
+  font-size: 10px ;
+  display: flex;
+  position: absolute;
+  width: 500px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  margin: 50px 850px;
+  background-color: #349beb;
+  text-align: justify;
+}

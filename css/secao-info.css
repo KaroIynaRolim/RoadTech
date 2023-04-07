@@ -110,6 +110,11 @@
     background-color: #349beb;
     border-radius: 10px;
 }
+.destaque {
+    font-weight: bold;
+    color: #F50CA0;
+    background-color: #1c324d;
+}
 
 @media screen and (max-width: 820px){
     .secoes {
