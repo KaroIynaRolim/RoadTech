@@ -5,6 +5,83 @@
 }
 
 footer {
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #349beb;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.box_menu-footer{
+  width: 20.3%;
+  background-color: #349beb;
+}
+
+.box_colaboradores{
+  background-color: #349beb;
+  width: 33.3%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box_informacoes{
+  background-color: #349beb;
+  width: 33.3%;
+}
+
+.title_info-rodape {
+  background-color: #349beb;
+  font-size: 20px;
+}
+
+.ul-rodape {
+  list-style: none;
+  background-color: #349beb;
+}
+
+.li-rodape {
+  font-size: 15px;
+  background-color: #349beb;
+}
+
+.title_info-colaboradores {
+  background-color: #349beb;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.imagens_colaboradores-1, .imagens_colaboradores-2{
+  background-color: #349beb;
+}
+.imagens_colaboradores-1 img{
+  width: 38px;
+  height: 38px;
+}
+
+.imagens_colaboradores-2 img{
+  width: 38px;
+  height: 38px;
+}
+
+.title_info-info {
+  font-size: 20px;
+  background-color: #349beb;
+}
+
+.paragrafo-info {
+  background-color: #349beb;
+  font-size: 13px ;
+  text-align: justify;
+}
+
+/*Código que karol fez...*/
+
+/*footer {
   position: absolute;
   width: 100%;
   height: 225px;
@@ -100,4 +177,49 @@ footer {
   margin: 50px 850px;
   background-color: #349beb;
   text-align: justify;
+}*/
+
+@media screen and (max-width: 1024px){
+
+  .imagens_colaboradores-1 img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .imagens_colaboradores-2 img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .li-rodape {
+    font-size: 12px;
+  }
+
+  .paragrafo-info {
+    font-size: 8px ;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .title_info-colaboradores, .title_info-info{
+    font-size: 15px;
+  }
+  
+  .imagens_colaboradores-1 img{
+    width: 15px;
+    height: 15px;
+  }
+
+  .imagens_colaboradores-2 img{
+    width: 15px;
+    height: 15px;
+  }
+
+  .li-rodape {
+    font-size: 10px;
+  }
+
+  .paragrafo-info {
+    font-size: 6px ;
+  }
 }

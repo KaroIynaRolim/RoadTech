@@ -3,28 +3,34 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+.box_cards{
+	width: 98%;
+	margin: 0 auto !important;
+	display: flex;
+	justify-content: space-around;
+}
   
 .col-1-4,
 .col-2-4,
 .col-3-4,
 .col-4-4 {
 	width: 22%;
-	margin: auto ;
-	display: inline-block;
+	margin: auto;
 	align-items: center;
-	justify-content: space-evenly;
 	cursor: pointer;
-	/* border: 1px solid yellow; */
+	display: flex;
+	justify-content: center;
 }
-
 
 .flip-card {
 	background-color: transparent;
+
 	width: 217px;
 	height: 234px;
 	perspective: 1000px;
 	float: left;
-	margin: 20px 120px 0;
+	margin: 20px 0;
 }
 
 .flip-card-inner {
@@ -65,16 +71,11 @@
   .flip-card-back p{
 	  position: absolute;
   }
-@media screen and (max-width: 820px){
-	.col-1-4,
-	.col-2-4,
-	.col-3-4,
-	.col-4-4 {
-		width: 100%;
-		margin: 0 3%;
-		display: block;
-		align-items: center;
-		justify-content: center;
+
+@media screen and (max-width: 1024px){
+
+	.box_cards{
+		display: none;
 	}
 
 }
