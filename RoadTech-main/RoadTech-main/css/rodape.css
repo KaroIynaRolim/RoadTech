@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  width: 100%;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #349beb;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.box_menu-footer{
+  width: 20.3%;
+  background-color: #349beb;
+}
+
+.box_colaboradores{
+  background-color: #349beb;
+  width: 33.3%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box_informacoes{
+  background-color: #349beb;
+  width: 33.3%;
+}
+
+.title_info-rodape {
+  background-color: #349beb;
+  font-size: 20px;
+}
+
+.ul-rodape {
+  list-style: none;
+  background-color: #349beb;
+}
+
+.li-rodape {
+  font-size: 15px;
+  background-color: #349beb;
+}
+
+.title_info-colaboradores {
+  background-color: #349beb;
+  font-size: 20px;
+  justify-content: center;
+}
+
+.imagens_colaboradores-1, .imagens_colaboradores-2{
+  background-color: #349beb;
+}
+.imagens_colaboradores-1 img{
+  width: 38px;
+  height: 38px;
+}
+
+.imagens_colaboradores-2 img{
+  width: 38px;
+  height: 38px;
+}
+
+.title_info-info {
+  font-size: 20px;
+  background-color: #349beb;
+}
+
+.paragrafo-info {
+  background-color: #349beb;
+  font-size: 13px ;
+  text-align: justify;
+}
+
+/*Código que karol fez...*/
+
+/*footer {
+  position: absolute;
+  width: 100%;
+  height: 225px;
+  max-height: 300px;
+  text-align: center;
+  padding: 50px;
+  background-color: #349beb;
+  color: white;
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+}
+
+
+.title_info-rodape {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  justify-content: left;
+  width: 10px;
+  height: 10px;
+  background-color: #349beb;
+  margin: 0 10px;
+}
+
+.ul-rodape {
+  background-color: #349beb;
+  list-style: none;
+  margin: 0;
+  position: absolute;
+  font-size: 0;
+
+}
+
+.li-rodape {
+  position: relative;
+  margin-top: 30px;
+  height: 0;
+  width: 10px;
+  font-size: 10px;
+  background-color: #349beb;
+  white-space: nowrap
+}
+
+.title_info-colaboradores {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 10px;
+  height: 10px;
+  background-color: #349beb;
+  margin: 0 500px;
+}
+
+.imagens_colaboradores-1 {
+  display: flex;
+  position: absolute;
+  margin: 45px 450px;
+  width: 38px;
+  height: 38px;
+  background-color: #349beb;
+}
+
+.imagens_colaboradores-2 {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin: 40px 40px;
+  width: 38px;
+  height: 38px;
+  background-color: #349beb;
+}
+
+.title_info-info {
+  font-size: 20px;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  width: 10px;
+  height: 10px;
+  background-color: #349beb;
+  margin: 0 1300px;
+}
+
+.paragrafo-info {
+  font-size: 10px ;
+  display: flex;
+  position: absolute;
+  width: 500px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  margin: 50px 850px;
+  background-color: #349beb;
+  text-align: justify;
+}*/
+
+@media screen and (max-width: 1024px){
+
+  .imagens_colaboradores-1 img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .imagens_colaboradores-2 img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .li-rodape {
+    font-size: 12px;
+  }
+
+  .paragrafo-info {
+    font-size: 8px ;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .title_info-colaboradores, .title_info-info{
+    font-size: 15px;
+  }
+  
+  .imagens_colaboradores-1 img{
+    width: 15px;
+    height: 15px;
+  }
+
+  .imagens_colaboradores-2 img{
+    width: 15px;
+    height: 15px;
+  }
+
+  .li-rodape {
+    font-size: 10px;
+  }
+
+  .paragrafo-info {
+    font-size: 6px ;
+  }
+}
