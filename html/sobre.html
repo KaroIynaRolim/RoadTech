@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road Tech</title>
+
+    <link href="https://fonts.cdnfonts.com/css/catamaran" rel="stylesheet">
+
+
+    <!-- Importanto Biblioteca para criação do carrossel de imagens  -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
+
+    <!-- Páginas de estilos do site -->
+    <link rel="stylesheet" href="../css/cabecalho.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/area_tech.css">
+    <link rel="stylesheet" href="../css/cards.css">
+    <link rel="stylesheet" href="../css/secao-info.css">
+    <link rel="stylesheet" href="../css/rodape.css">
+    <link rel="stylesheet" href="../css/sobre.css">
+
+    <!-- Importando biblioteca javascript (jquery) para poder gerar a animação do carrosel -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
+    <!-- Colocando o fundo escuro em todo arquivo -->
+    <style type="text/css">
+        * {
+            background: #172A42;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            max-width: 1366px; 
+            margin: auto;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+   <!-- Desenvolvido por Karol -->
+    <header class="cabecalho">
+        <img class="cabecalho__imagem" src="../img/ROAD TECH.png">
+
+        <!-- Menu-desktop -->
+        <nav class="navegacao">
+            <ul class="navegacao__menu">
+
+                <li class="navegacao__menu-itens">
+                    <div class="navegacao_menu-linha">
+                        <a class="menu__itens-link" href="index.html">Home</a>
+                        <div class="linha cor_linha-1"></div>
+                    </div>
+                </li><!-- navegacao__menu-itens -->
+
+                <li class="navegacao__menu-itens">
+                    <div class="navegacao_menu-linha">
+                        <a class="menu__itens-link" href="carreiras.html">Carreiras</a>
+                        <div class="linha cor_linha-2"></div>
+                    </div>
+                </li><!-- navegacao__menu-itens-->
+
+                <li class="navegacao__menu-itens">
+                    <div class="navegacao_menu-linha">
+                        <a class="menu__itens-link" href="formasIngresso.html">Formas de ingresso</a>
+                        <div class="linha cor_linha-3"></div>
+                    </div>
+                </li><!-- navegacao__menu-itens-->
+
+                <li class="navegacao__menu-itens">
+                    <div class="navegacao_menu-linha">
+                        <a class="menu__itens-link" href="sobre.html">Sobre</a>
+                        <div class="linha cor_linha-4"></div>
+                    </div>
+                </li><!-- navegacao__menu-itens -->
+
+            </ul>
+        </nav>
+        <!-- Menu-desktop -->
+    </header>
+
+    <!-- header para menu mobile -->
+    <header class="cabecalho_mobile">
+
+        <div class="box_header_mobile">
+            <img class="cabecalho__imagem_mobile" src="../img/ROAD TECH.png">
+            <div class="box_link">
+                <img class="cabecalho__menu" src="../img/menu.png">
+            </div>
+        </div>
+
+        <!-- Menu-mobile -->
+        <nav class="navegacao-menu_mobile">
+            <ul class="lista-menu-mobile">
+
+                <li class="linha-menu-moblie none">
+                    <div class="box_link">
+
+                    </div>
+                </li> <!-- linha-menu-moblie -->
+
+                <li class="linha-menu-moblie none">
+                    <div class="box_link">
+                        <a class="menu__itens-link" href="index.html">Home</a>
+                    </div>
+                </li> <!-- linha-menu-moblie -->
+
+                <li class="linha-menu-moblie none">
+                    <div class="box_link">
+                        <a class="menu__itens-link" href="carreiras.html">Carreiras</a>
+                    </div>
+                </li> <!-- navegacao__menu-itens-->
+
+                <li class="linha-menu-moblie none">
+                    <div class="box_link">
+                        <a class="menu__itens-link" href="formasIngresso.html">Formas de ingresso</a>
+                    </div>
+                </li> <!-- navegacao__menu-itens-->
+
+                <li class="linha-menu-moblie none">
+                    <div class="box_link">
+                        <a class="menu__itens-link" href="sobre.html">Sobre</a>
+                </li><!-- navegacao__menu-itens -->
+            </ul>
+        </nav>
+        <!-- Menu-mobile -->
+
+    </header>
+    <!-- header para menu mobile -->
+
+     <section class="area_tech">
+        <div class="area_tech-titulo">
+            <h1>Sobre</h1>
+        </div><!-- area_tech-titulo -->
+    </section><!-- area_tech -->
+    <br>
+
+   
+
+        <div class="sobre-area secoes" style="height: 100%;margin-bottom: 0px; color: white;">
+            <h1 class="h-title">INFORMAÇÕES</h1>
+            <div class="conteudo">
+                <p style="width: 100%; text-align: center; padding: 0 10%" class="p-conteudo">
+                    Esse projeto tem como objetivo apresentar a área tecnológica para adolescentes do
+                ensino médio por meio de uma abordagem prática e interativa. A metodologia inclui oficinas e palestras
+                que permitem aos alunos experimentar ferramentas tecnológicas na prática. Espera-se aumentar o interesse
+                dos adolescentes pela área tecnológica, e ampliar o conhecimento sobre as oportunidades de ingresso na
+                área tecnológica.
+                </p>
+            </div>
+
+            <div class="box-componentes">
+                <div class="componentes">
+                        <div class="componentes-img">
+                            <img src="../img/imagemAdelson.jpg">
+                        </div>
+                        <div class="componentes-txt">
+                            <h3>Adelson Gomes</h3>
+                            <div class="componentes-redes">
+                                <img src="../img/gitHub.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                            <div class="componentes-redes">
+                                <img src="../img/linkedin.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="componentes">
+                        <div class="componentes-img">
+                            <img src="../img/imagemAdelson.jpg">
+                        </div>
+                        <div class="componentes-txt">
+                            <h3>Ana Silva</h3>
+                            <div class="componentes-redes">
+                                <img src="../img/gitHub.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                            <div class="componentes-redes">
+                                <img src="../img/linkedin.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="componentes">
+                        <div class="componentes-img">
+                            <img src="../img/imagemAdelson.jpg">
+                        </div>
+                        <div class="componentes-txt">
+                            <h3>Isabela Silva</h3>
+                            <div class="componentes-redes">
+                                <img src="../img/gitHub.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                            <div class="componentes-redes">
+                                <img src="../img/linkedin.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="componentes">
+                        <div class="componentes-img">
+                            <img src="../img/imagemAdelson.jpg">
+                        </div>
+                        <div class="componentes-txt">
+                            <h3>Jhonnatas Mendonça</h3>
+                            <div class="componentes-redes">
+                                <img src="../img/gitHub.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                            <div class="componentes-redes">
+                                <img src="../img/linkedin.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="componentes">
+                        <div class="componentes-img">
+                            <img src="../img/imagemAdelson.jpg">
+                        </div>
+                        <div class="componentes-txt">
+                            <h3>Karolyna Rolim</h3>
+                            <div class="componentes-redes">
+                                <img src="../img/gitHub.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                            <div class="componentes-redes">
+                                <img src="../img/linkedin.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+             <div class="box-componentes">
+                <div class="componentes">
+                        <div class="componentes-img">
+                            <img src="../img/imagemAdelson.jpg">
+                        </div>
+                        <div class="componentes-txt">
+                            <h3>Alice Dantas</h3>
+                            <div class="componentes-redes">
+                                <img src="../img/gitHub.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                            <div class="componentes-redes">
+                                <img src="../img/linkedin.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="componentes">
+                        <div class="componentes-img">
+                            <img src="../img/imagemAdelson.jpg">
+                        </div>
+                        <div class="componentes-txt">
+                            <h3>Maria Eugenia</h3>
+                            <div class="componentes-redes">
+                                <img src="../img/gitHub.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                            <div class="componentes-redes">
+                                <img src="../img/linkedin.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="componentes">
+                        <div class="componentes-img">
+                            <img src="../img/imagemAdelson.jpg">
+                        </div>
+                        <div class="componentes-txt">
+                            <h3>Ranon Diniz</h3>
+                            <div class="componentes-redes">
+                                <img src="../img/gitHub.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                            <div class="componentes-redes">
+                                <img src="../img/linkedin.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="componentes">
+                        <div class="componentes-img">
+                            <img src="../img/imagemAdelson.jpg">
+                        </div>
+                        <div class="componentes-txt">
+                            <h3>Jamile Maria</h3>
+                            <div class="componentes-redes">
+                                <img src="../img/gitHub.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                            <div class="componentes-redes">
+                                <img src="../img/linkedin.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="componentes">
+                        <div class="componentes-img">
+                            <img src="../img/imagemAdelson.jpg">
+                        </div>
+                        <div class="componentes-txt">
+                            <h3>Vitor Paz</h3>
+                            <div class="componentes-redes">
+                                <img src="../img/gitHub.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                            <div class="componentes-redes">
+                                <img src="../img/linkedin.png">
+                                <a href="">Lorem Ipsum</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+    </section>
+
+
+
+
+    <!-- Desenvolvido por Karol -->
+
+    <footer>
+       <h1>Desenvolvido por Road Tech | Todos os direitos reservados</h1>
+    </footer>
+    <!-- Desenvolvido por Karol -->
+
+    <script type="text/javascript">
+        $('.carousel').slick({
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            arrows: false,
+        });
+
+        $(".cabecalho__menu").click(function () {
+            $(".none").toggle();
+        });
+    </script>
+
+
+
+
+</body>
+
+</html>
