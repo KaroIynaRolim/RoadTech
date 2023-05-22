@@ -14,7 +14,7 @@
     border: 1px solid ;
     border-radius: 7px;
     margin-bottom: 20px;
-    background-color: #1c324d;
+    background-color: #172A42;
     transition: all 0.1s ease-out;
 }
 .secoes:hover {
@@ -28,7 +28,7 @@
     font-size: 35px;
     margin: 20px auto;
     text-transform: uppercase;
-    background-color: #1c324d;
+    background-color: #172A42;
 
 }
 
@@ -45,7 +45,7 @@
     color: white;
     width: 55%;
     font-size: 20px;
-    background-color: #1c324d;
+    background-color: #172A42;
 
 }
 
