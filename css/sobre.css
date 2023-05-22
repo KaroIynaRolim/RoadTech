@@ -55,7 +55,7 @@
 .container_mobile{
 		display: none;
 	}
-
+/* 
 @media screen and (min-width: 1025px) and (max-width: 1150px){
 	.componentes{
 		width: 190px;
@@ -163,4 +163,4 @@
 	.componentes-redes a{
 		font-size: 10px;
 	}
-}
+} */
